@@ -1,0 +1,63 @@
+/* Kate Bowers */
+/* Innovative women project */
+/* 28-Dec-2017 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+
+header { 
+	font-family: fantasy;
+    color: blue;
+    font-size: 160%;
+    background-color: blue
+    text-align: center;
+    border-bottom: 2px solid black; }
+
+body {
+	text-align: center; /* this aligns the text in the center */
+	font-family: fantasy;
+    width: 964px;
+    background-color: lightblue; /* this changes the color of the background */
+    margin: 15px auto;
+    border: 2px solid black; }
+
+#sidebarA {
+	text-align: center;
+	font-family: fantasy; /* this specifies the font used on this page */
+    width: 24%;
+    height: 400px;     
+    float: left;
+    border-right: 2px solid black; }
+img {
+	float: left;
+}
+*{ margin: 0;
+	padding:0;
+}
+/* this floats the image to the left of the page */
+main {
+	
+	font-text-align: center;
+	family: fantasy;
+    width: 50%; 
+    float: left; }
+
+#sidebarB {
+	text-align: center;
+	font-family: fantasy;
+    width: 24%;
+    height: 400px;     
+    float: right;
+    border-left: 2px solid black; }
+
+footer {
+	font-family: fantasy;
+    clear: both; 
+    border-top: 2px solid black; }
+a:link{
+	color: blue; }
+/*this changes the color of the link and helps it make it larger and different color when you put your mouse over it*/
+a:hover, a:focus {
+	color: fuchsia;
+	font-size: 130% }
